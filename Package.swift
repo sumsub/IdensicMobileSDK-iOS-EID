@@ -3,14 +3,14 @@
 
 import PackageDescription
 
-let version = Version("1.45.1")
+let version = Version("1.46.0")
 
 let gitUrl = "https://maven.sumsub.com/repository/releases/IdensicMobileSDK-iOS/\(version)"
 let mavenUrl = "https://maven.sumsub.com/repository/maven-private"
 
 enum checksums {
-    static let eid = "5d159cd81312435ca6ad824913cae9ccacfbe758502be7c342a179b47223fb94"
-    static let aal = "c7fc02056555a0b5876f6ad8e91afff4fa35d5b9f204a1d83b7347bd0fc4f6b2"
+    static let eid = "43b9bf1c299bfce8ce27db24898fd21081650eb64a0f6865d86fda920a07aac4"
+    static let aal = "f2d454bb0eb4ca34e852726d2b802a48866769bcce093d8635ec8f5aa5f69d75"
 }
 
 let package = Package(
@@ -37,7 +37,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AuthadaAuthenticationLibrary",
-            url: "\(mavenUrl)/de/authada/library/aal-ios/1.3.4/aal-ios-1.3.4.zip",
+            url: "\(mavenUrl)/de/authada/library/aal-ios/1.4.1/aal-ios-1.4.1.zip",
             checksum: checksums.aal
         ),
         .target(
