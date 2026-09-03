@@ -27,7 +27,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/SumSubstance/IdensicMobileSDK-iOS.git", .exact(version))
+        .package(url: "https://github.com/sumsub/IdensicMobileSDK-iOS.git", .exact(version))
     ],
     targets: [
         .binaryTarget(
